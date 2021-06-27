@@ -2,7 +2,7 @@
 
 namespace WeifenLuo.WinFormsUI.Docking.Configuration
 {
-#if NET35 || NET40
+#if NET35 || NET40 || NET5_0_OR_GREATER
     public class PatchSection : ConfigurationSection
     {
         [ConfigurationProperty("enableAll", DefaultValue = null)]
